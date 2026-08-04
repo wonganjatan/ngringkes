@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main>
+    <main className="h-screen flex flex-col justify-between">
       <Header/>
       <Footer/>
     </main>
