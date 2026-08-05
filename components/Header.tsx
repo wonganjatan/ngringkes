@@ -7,9 +7,9 @@ export default function Header() {
                 <Link href="/">Ngringkes</Link>
             </div>
             <div className="flex">
-                <h1>Dashboard (where all summarized podcast goes here)</h1>
-                <h1>Add item</h1>
-                <h1>About</h1>
+                <Link href="/podcasts">Your Summarized Podcast</Link>
+                <Link href="/podcasts/new">Summarize New Podcast</Link>
+                <Link href="/about">About</Link>
             </div>
         </section>
     )
