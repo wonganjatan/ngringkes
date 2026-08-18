@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <section className="flex items-center justify-between p-8">
+        <section className="flex items-center justify-between p-8 bg-linear-to-b to-blue-200">
             <p>© 2026 William Hok</p>
             <p>Build with 
                 <a href="https://react.dev/">
