@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <section className="flex items-center justify-between px-8 py-4">
+        <section className="flex items-center justify-between px-8 py-4 bg-linear-to-br from-blue-500 to-red-500">
             <div>
-                <Link href="/">Ngringkes</Link>
+                <Link href="/" className="text-2xl">Ngringkes</Link>
             </div>
             <div className="flex">
                 <Link href="/podcasts">Your Summarized Podcast</Link>
