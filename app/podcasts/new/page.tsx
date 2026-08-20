@@ -8,7 +8,9 @@ export default function NewPodcastPage() {
             <section>
                 <h1>Ngringkes!</h1>
                 <div>
-                    
+                    <div>
+                        
+                    </div>
                 </div>
             </section>
             <Footer />
